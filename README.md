@@ -29,7 +29,7 @@ Run ```python ablate_race_vignette.py -is_9b <is_9b> -task <task> -temperature <
  2. Run ```python src/preprocess_qpain.py```
 
 ### Code
-1. Run ```python src/ablate_race_bhc.py -is_9b <is_9b> -task <task> -multiple <multiple>```. ```multiple``` is set to 0 if you want to ablate only the middle layer, and 1 if you want to ablate 5 layers.
+1. Run ```python src/ablate_race_bhc.py -is_9b <is_9b> -task <task> -multiple <multiple>```. This will run baseline prompting, prompting with anti-bias statement, and SAE race ablation. ```multiple``` is set to 0 if you want to ablate only the middle layer, and 1 if you want to ablate 5 layers. 
    
 
 
